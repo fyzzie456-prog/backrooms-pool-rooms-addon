@@ -1,0 +1,28 @@
+{
+  "format_version": [1, 1, 0],
+  "minecraft:block": {
+    "description": {
+      "identifier": "pool_rooms:mirror_wall",
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 1.0
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.5
+      },
+      "minecraft:friction": {
+        "value": 0.6
+      },
+      "minecraft:map_color": "#E8E8E8",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "mirror_wall",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:block_light_emission": 0.3
+    }
+  }
+}

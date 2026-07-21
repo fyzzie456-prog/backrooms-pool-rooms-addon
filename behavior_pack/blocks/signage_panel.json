@@ -1,0 +1,33 @@
+{
+  "format_version": [1, 1, 0],
+  "minecraft:block": {
+    "description": {
+      "identifier": "pool_rooms:signage_panel",
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 1.5
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8
+      },
+      "minecraft:friction": {
+        "value": 0.5
+      },
+      "minecraft:geometry": "geometry.signage_panel",
+      "minecraft:map_color": "#FFFFFF",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "signage_panel",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:block_light_emission": 0.0,
+      "minecraft:collision_box": {
+        "origin": [0, 0, 0],
+        "size": [16, 16, 1]
+      }
+    }
+  }
+}

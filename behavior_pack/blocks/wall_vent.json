@@ -1,0 +1,33 @@
+{
+  "format_version": [1, 1, 0],
+  "minecraft:block": {
+    "description": {
+      "identifier": "pool_rooms:wall_vent",
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 2.0
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.0
+      },
+      "minecraft:friction": {
+        "value": 0.5
+      },
+      "minecraft:geometry": "geometry.wall_vent",
+      "minecraft:map_color": "#696969",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "wall_vent",
+          "render_method": "alpha_test"
+        }
+      },
+      "minecraft:block_light_emission": 0.0,
+      "minecraft:collision_box": {
+        "origin": [2, 2, 0],
+        "size": [12, 12, 3]
+      }
+    }
+  }
+}
