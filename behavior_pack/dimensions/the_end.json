@@ -1,0 +1,27 @@
+{
+  "format_version": "1.20.50",
+  "minecraft:dimension": {
+    "description": {
+      "identifier": "minecraft:the_end"
+    },
+    "components": {
+      "minecraft:dimension_bounds": {
+        "max": 256
+      },
+      "minecraft:fixed_spawn_point": {
+        "spawn_point": [0.5, 70, 0.5]
+      },
+      "minecraft:time": {
+        "day_cycle_stop_time": 6000,
+        "do_daylight_cycle": false
+      },
+      "minecraft:weather": {
+        "rain_level": 0,
+        "thunder_level": 0
+      },
+      "minecraft:sky": {
+        "type": "end"
+      }
+    }
+  }
+}

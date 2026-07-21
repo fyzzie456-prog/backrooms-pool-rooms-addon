@@ -1,0 +1,20 @@
+{
+  "format_version": [1, 1, 0],
+  "minecraft:biome": {
+    "description": {
+      "identifier": "pool_rooms:pool_rooms"
+    },
+    "climate": {
+      "fog": {
+        "fog_color": "#8EFFFF",
+        "fog_start": 5.0,
+        "fog_end": 40.0
+      },
+      "sky_color": "#E0FFFF",
+      "water_color": "#4DD0FF",
+      "water_fog_color": "#4DD0FF"
+    },
+    "surface_parameters": {},
+    "components": {}
+  }
+}

@@ -1,0 +1,12 @@
+##Editor: VSCode
+##Desc: English US language file
+
+# Custom Biome
+biome.pool_rooms:pool_rooms=Pool Rooms
+
+# Tips
+tip.pool_rooms.1=Welcome to the Pool Rooms...
+tip.pool_rooms.2=The fluorescent lights hum endlessly...
+tip.pool_rooms.3=Something feels... wrong here
+tip.pool_rooms.4=Doctor R4T's domain
+tip.pool_rooms.5=The water is always cold
