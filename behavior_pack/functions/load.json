@@ -1,5 +1,7 @@
 {
   "values": [
-    "setup_pool_rooms"
+    "setup_pool_rooms",
+    "exit_portals",
+    "exit_detector"
   ]
 }
